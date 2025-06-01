@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mrljdx/ffmpeg-kit-ios'
   s.license          = { :type => 'LGPL-3.0', :file => 'LICENSE' }
   s.author           = { 'Mrljdx' => 'mrljdx@gmail.com' }
-  s.source           = { :git => 'https://github.com/mrljdx/ffmpeg-kit-ios.git', :tag => s.version.to_s }
+  s.source           = { :path => '.' }
   s.ios.deployment_target = '12.0'
   s.vendored_frameworks = 'ffmpegkit.xcframework', 'libavcodec.xcframework', 'libavdevice.xcframework', 'libavfilter.xcframework', 'libavformat.xcframework', 'libavutil.xcframework', 'libswresample.xcframework', 'libswscale.xcframework'
 end
